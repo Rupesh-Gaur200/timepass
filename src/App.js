@@ -11,7 +11,7 @@ function App() {
 
     // Send data to backend for processing
     const response = await fetch('http://localhost:3001/api/subscribe', {
-      method: 'POST',
+      method: 'post',
       headers: {
         'Content-Type': 'application/json',
       },
